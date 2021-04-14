@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import { action } from '@storybook/addon-actions';
 
 import * as TaskListStories from './TaskList.stories';
+import { PureInboxScreen } from './InboxScreen';
 
 // A super-simple mock of a redux store
 const store = {
@@ -17,7 +18,6 @@ const store = {
 };
 
 
-import { PureInboxScreen } from './InboxScreen';
 
 export default {
   component: PureInboxScreen,
